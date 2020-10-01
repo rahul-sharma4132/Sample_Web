@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+#title {
+  background-color: #ff4c68;
+  padding: 10px;
+  margin-bottom: auto;
+  width: fit-content;
+}
+
+.top-title-div{
+  padding: 3% 15%;
+}
+
+.top-features-div{
+  background-color: #5EAE4C;
+}
+
+.top-text {
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 0px;
+}
+.nav-item{
+  padding: 15px;
+}
+
+.navigationSupport{
+  color: #484848;
+}
+
+.top-img{
+  padding-top: 20px;
+}
+
+.image-div {
+  width: 60%;
+  transform: rotate(25deg);
+
+}
+
+#navbar-example2 {
+  padding-left: 0px;
+  padding-bottom: 25px;
+}
+
+#features {
+  background-color: #5EAE4C;
+  padding: 10px;
+
+}
+
+#testimonials {
+  background-color: #6666ff;
+  padding: 10px 10px 10px 10px;
+}
+
+.card {
+  width: 10rem;
+  background-color: inherit;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+}
+
+#carouselExampleControls{
+  display: block;
+  text-align: center;
+}
+
+#press {
+  background-color: #66ffff;
+  padding: 20px;
+  border: 2px 2px 2px 2px;
+}
+
+.card-img-top {
+  width: 50%;
+}
+
+.carous-testimonial{
+  width: 20%;
+}
+
+.card-body {
+  background-color: #9999ff;
+  width: 50%;
+}
+
+#pricing {
+  background-color: #ffff66;
+  padding: 20px;
+}
+
+#cta {
+  background-color: #ff6600;
+  padding: 20px;
+}
+
+.price-header {
+  font-family: 'Ranchers', cursive;
+  line-height: 1;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  background-color: #660066;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#myBtn {
+ display: flex; /* Hidden by default */
+ position: fixed; /* Fixed/sticky position */
+ bottom: 20px; /* Place the button at the bottom of the page */
+ right: 30px; /* Place the button 30px from the right */
+ z-index: 99; /* Make sure it does not overlap */
+ border: none; /* Remove borders */
+ outline: none; /* Remove outline */
+ background-color: #ff80b3; /* Set a background color */
+ color: white; /* Text color */
+ cursor: pointer; /* Add a mouse pointer on hover */
+ padding: 15px; /* Some padding */
+ border-radius: 10px; /* Rounded corners */
+ font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+ background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.fa-check-circle{
+  color: #ff80b3;
+  font-size: 3rem;
+  left: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fa-bullseye{
+  color: #ff80b3;
+  font-size: 3rem;
+}
+
+.fa-heart{
+  color: #ff80b3;
+  font-size: 3rem;
+}
+
+#footer {}
